@@ -122,3 +122,4 @@ Root -> 7 olsun.
          2     4          -> 4. Düğüm Satırı
 ---
 [Aykut Gezer](https://github.com/AykutGezer/Binary-Search-Tree-Projesi)
+[Patika.dev](https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/binary-search-tree-proje)
