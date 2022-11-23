@@ -65,58 +65,58 @@ Root -> 7 olsun.
          
 - 0, 7, 5, ve 1'den küçüktür, dolayısıyla 3. Düğüm Satırı'nda 1'in sol tarafında olacaktır.
 
-            7          -> Root Satırı
+               7          -> Root Satırı
+              / \
+             /   \
+            5     8       -> 1. Düğüm Satırı
            / \
           /   \
-         5     8       -> 1. Düğüm Satırı
-        / \
-       /   \
-      1     6          -> 2. Düğüm Satırı
-     / \
-    /   \
-   0     3             -> 3. Düğüm Satırı
-   
+         1     6          -> 2. Düğüm Satırı
+        /  \
+       /    \             -> 3. Düğüm Satırı
+      0      3
+      
 - 9, 7 ve 8'den büyükyür, dolayısıyla 2. Düğüm Satırı'nda 8'in sağ tarafında olacaktır.
 
-            7          -> Root Satırı
-           / \
-          /   \
-         5     8       -> 1. Düğüm Satırı
-        / \     \
-       /   \     \
-      1     6     9    -> 2. Düğüm Satırı
-     / \
-    /   \
-   0     3             -> 3. Düğüm Satırı
+               7          -> Root Satırı
+             /  \
+            /    \
+           5      8       -> 1. Düğüm Satırı
+          / \      \
+         /   \      \
+         1     6     9    -> 2. Düğüm Satırı
+        / \
+       /   \
+      0     3             -> 3. Düğüm Satırı
    
 - 4, 7 ve 5'ten küçüktür ancak 1 ve 3'ten büyüktür, dolayısıyla 4. Düğüm Satırı'nda 3'ün sağ tarafında olacaktır.
 
-            7          -> Root Satırı
-           / \
-          /   \
-         5     8       -> 1. Düğüm Satırı
-        / \     \
-       /   \     \
-      1     6     9    -> 2. Düğüm Satırı
-     / \
-    /   \
-   0     3             -> 3. Düğüm Satırı
-          \
-           \
-            4          -> 4. Düğüm Satırı
+             7          -> Root Satırı
+            / \
+           /   \
+          5     8       -> 1. Düğüm Satırı
+         / \     \
+        /   \     \
+        1     6     9    -> 2. Düğüm Satırı
+       / \
+      /   \
+      0     3             -> 3. Düğüm Satırı
+             \
+              \
+               4          -> 4. Düğüm Satırı
             
 - 2, 7 ve 5'ten küçük, 1'den büyük ve 3'ten küçüktür, dolayısıyla 4. Düğüm Satırı'nda 3'ün sol tarafında olacaktır.
 
-            7          -> Root Satırı
+              7          -> Root Satırı
+             / \
+            /   \
+           5     8       -> 1. Düğüm Satırı
+          / \     \
+         /   \     \
+        1     6     9    -> 2. Düğüm Satırı
+       / \
+      /   \
+      0     3             -> 3. Düğüm Satırı
            / \
           /   \
-         5     8       -> 1. Düğüm Satırı
-        / \     \
-       /   \     \
-      1     6     9    -> 2. Düğüm Satırı
-     / \
-    /   \
-   0     3             -> 3. Düğüm Satırı
-        / \
-       /   \
-      2     4          -> 4. Düğüm Satırı
+         2     4          -> 4. Düğüm Satırı
